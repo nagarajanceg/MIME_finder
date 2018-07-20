@@ -1,0 +1,11 @@
+###MIME file format finder
+- Using File reader browser Api to read the uploaded file as a blob data.
+- On reading the first 8 bytes of data it's possible to identify the MIME type.
+- Listed files are identified:
+ -	video/webm
+ - video/ogg
+ - video/x-ms-wmv
+ - video/x-msvideo
+ - video/mp4
+ - video/quicktime
+ - video/gif
